@@ -1,0 +1,45 @@
+{
+  "name": "app",
+  "main": "expo-router/entry",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start",
+    "reset-project": "node ./scripts/reset-project.js",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "expo lint"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^7.15.5",
+    "@react-navigation/elements": "^2.9.10",
+    "@react-navigation/native": "^7.1.33",
+    "expo": "canary",
+    "expo-constants": "canary",
+    "expo-device": "canary",
+    "expo-font": "canary",
+    "expo-glass-effect": "canary",
+    "expo-image": "canary",
+    "expo-linking": "canary",
+    "expo-router": "canary",
+    "expo-splash-screen": "canary",
+    "expo-status-bar": "canary",
+    "expo-symbols": "canary",
+    "expo-system-ui": "canary",
+    "expo-web-browser": "canary",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.4",
+    "react-native-gesture-handler": "~2.30.0",
+    "react-native-worklets": "0.7.2",
+    "react-native-reanimated": "4.2.1",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-web": "~0.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
